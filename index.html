@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editable Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <div class="brand" contenteditable="true" data-placeholder="Your Brand">Your Brand</div>
+        <button id="toggleEdit" class="btn">Lock Editing</button>
+      </nav>
+
+      <div class="hero-content">
+        <p class="kicker" contenteditable="true">WELCOME</p>
+        <h1 contenteditable="true">Build your next idea faster.</h1>
+        <p class="subtitle" contenteditable="true">
+          This landing page is fully editable. Click any text and type.
+        </p>
+        <div class="actions">
+          <button class="btn primary" contenteditable="true">Get Started</button>
+          <button class="btn ghost" contenteditable="true">Learn More</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="features">
+        <article class="card">
+          <h2 contenteditable="true">Fast setup</h2>
+          <p contenteditable="true">Drop this file on any static host and you're live.</p>
+        </article>
+        <article class="card">
+          <h2 contenteditable="true">No framework</h2>
+          <p contenteditable="true">Pure HTML, CSS, and JavaScript so it's easy to customize.</p>
+        </article>
+        <article class="card">
+          <h2 contenteditable="true">Saved automatically</h2>
+          <p contenteditable="true">Your edits are stored in your browser's localStorage.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <small contenteditable="true">© 2026 Your Brand. All rights reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
